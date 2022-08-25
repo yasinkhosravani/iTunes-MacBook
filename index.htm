@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="photo/itune.png" type="image/png" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+        <title>iTunes</title>
+</head>
+<body>
+    <article class="d-flex">
+        <div id="menu" class="vh-100 " style="width: 20%;background-color:rgb(244, 244, 244);border-right: 1px rgb(128, 128, 128,0.2) double;" >
+            <div id="search" class="mx-auto  " style="width: 80%;margin-top: 4rem;">
+                <div class="w-100  mx-auto d-flex" style="height: 2rem;border-radius: 3px;border: 2px black double;background-color:rgb(0,12,33);opacity: 0.1;">  
+                <form class="d-flex">
+                    <button class="border-0 w-25"><i class="bi bi-search"></i></button>
+                    <input class="border-0 w-75" type="search" placeholder="search...">
+                    
+                </form>
+            </div>
+            </div>
+            <div id="apple_music " class="ms-4 mt-3">
+                <p style="color: gray;opacity: 0.8;font-size: small;">Apple Music</p>
+                <div id="for_you" class="ms-2 " style="font-size:small; margin-top: -1rem;"><i class="bi bi-heart-fill"></i> For You</div>
+                <div id="browse" class="ms-2 " style="font-size:small;"><i class="bi bi-music-note-beamed"></i> Browse</div>
+                <div id="radio" class="ms-2 " style="font-size:small;"><i class="bi bi-broadcast"></i> Radio</div>
+            </div>
+            <div id="apple_music " class="ms-4 mt-3">
+                <p style="color: gray;opacity: 0.8;font-size: small;">Labrary</p>
+                <div id="recently_added" class="ms-2 " style="font-size:small; margin-top: -1rem;"><i class="bi bi-clock"></i> Recently Added</div>
+                <div id="artists" class="ms-2 " style="font-size:small;"><i class="bi bi-mic"></i> Artists</div>
+                <div id="albums" class="ms-2 " style="font-size:small;"><i class="bi bi-journal-album"></i> Albums</div>
+                <div id="songs" class="ms-2 " style="font-size:small;"><i class="bi bi-music-note"></i> Songs</div>
+            </div>
+            <div id="apple_music " class="ms-4 mt-3">
+                <p style="color: gray;opacity: 0.8;font-size: small;">Story</p>
+                <div id="itunes_store" class="ms-2 " style="font-size:small; margin-top: -1rem;"><i class="bi bi-star-fill"></i> iTunes Store</div>
+            </div>
+            <div id="apple_music " class="ms-4 mt-3">
+                <p style="color: gray;opacity: 0.8;font-size: small;">Playlist</p>
+                <div id="api_music" class="ms-2 " style="font-size:small; margin-top: -1rem;"><i class="bi bi-music-note-list"></i> Online Music</div>
+            </div>
+        </div>
+        <div id="main" class="  vh-100 " style="background-color:rgb(255,255,255);width: 80%;">
+            <div  style="height:8%;width: 100%;border-bottom: 2px grey double;opacity: 0.2;"></div>
+            <div  style="height:92%;width: 100%" class="d-flex">
+                <div  style="width: 30%;height: 100%;">
+                    <div class="container w-75 mx-auto my-5">
+                        <div class="row row-cols-2">
+                          <div class="col bg-danger" style="height:5rem "><img src="" alt=""></div>
+                          <div class="col bg-dark" style="height:5rem ;"><img src="" alt=""></div>
+                          <div class="col bg-primary" style="height:5rem ;"><img src="" alt=""></div>
+                          <div class="col bg-success" style="height:5rem ;"><img src="" alt=""></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="" style="width: 70%;height: 100%;">
+                    <h4 class="" style="color: rgb(0, 0, 0);margin-top: 2rem;opacity: 0.7;">Music Online</h4>
+                    <p class="" style="font-size: 12px;opacity: 0.5;margin-top: -5px;">x SONGS . y HOURS, z MINUTES  </p>
+                    <div class="d-flex">
+                        <button class="btn btn-primary btn-lg d-flex me-3 h5 w-25 " ><i class="bi bi-play-fill  mx-auto" > play</i></button>
+                        <button class="btn btn-primary btn-lg d-flex h5 w-25  "><i class="bi bi-shuffle mx-auto"> shuffle</i></button>
+                    </div>
+                    <hr class="me-5">
+                    <input type="text" value="  ..." class="my-1 border-0" >
+                    <hr class="me-5">
+
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
