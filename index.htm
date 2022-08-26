@@ -45,8 +45,25 @@
                 <div id="api_music" class="ms-2 " style="font-size:small; margin-top: -1rem;"><i class="bi bi-music-note-list"></i> Online Music</div>
             </div>
         </div>
-        <div id="main" class="  vh-100 " style="background-color:rgb(255,255,255);width: 80%;">
-            <div  style="height:8%;width: 100%;border-bottom: 2px grey double;opacity: 0.2;"></div>
+        <div id="main" class=" vh-100 " style="background-color:rgb(255,255,255);width: 80%">
+            <div class="d-flex" style="height:8%;width: 100%;border-bottom: 2px grey double">
+                <div >
+                    <button class=" ms-5 border-0 bg-white h5"><i class="bi bi-shuffle mx-auto"></i></button>
+                    <button class="  border-0 bg-white h5"><i class="bi bi-skip-backward-fill"></i></button>
+                    <button class="  border-0 bg-white h3"><i class="bi bi-play-fill"></i></button>
+                    <button class="  border-0 bg-white h5"><i class="bi bi-skip-forward-fill"></i></button>
+                    <button class="   border-0 bg-white "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-repeat" viewBox="0 0 16 16">
+                        <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                      </svg></button></div>
+                
+                <div id="music-component" class="border-1 bg-dark ms-4 mt-1" style="height: 2.5rem;border-radius: 5px;width: 35%;">
+
+                </div>
+
+                <button class="ms-2 border-0 bg-white h3 "><i class="bi bi-volume-down-fill"></i></button>
+                <input type="range" class="form-range " id="customRange1" style="width: 10%;margin-top: 0.7rem;">
+                <button class=" border-0 bg-white h3 "><i class="bi bi-volume-up-fill"></i></button>
+            </div>
             <div  style="height:92%;width: 100%" class="d-flex">
                 <div  style="width: 30%;height: 100%;">
                     <div class="container w-75 mx-auto my-5">
